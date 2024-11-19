@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F8F8F8;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main{ 
+    width: 90%;
+    margin: 40px auto;
+    background-color: white;
+    min-height: 810px;
+}
+
+p{
+    color: #686F7A;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.15px;
+}
+
+a{
+    color: #007BFF;
+    text-decoration: none;
+}
+
+span{
+    display: block;
+}
+
+#heading{
+    color: #3D4248;
+    font-weight: 500;
+}
+
+
+header >figure{
+    padding: 8px 0.5187rem;
+}
+
+header >figure img{
+    width: 150px;
+}
+
+
+
+#hero-section{
+    width: 85%;
+    margin: 0 auto;
+    background-color: #E9E8ED;
+    height: 450px;
+    border-radius: 8px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+#hero-section figure{
+    flex-basis:70%;
+    height: 400px;
+}
+
+
+#hero-section figure  img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+figcaption{
+    font-size: 3rem;
+    text-align: center;
+    line-height: 36px;
+    padding: 3.5rem;
+}
+
+#invitation{
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: justify;
+}
+
+#invitation h4{
+    font-size: 2.5rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.15px;
+}
+
+#invitation div{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+#invitation div button{
+    background-color:#4D4A72 ;
+    color: white;
+    border-radius: 4px; 
+    width: 202px;
+    height: 48px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+   font-weight: 500;
+   line-height: 24px;
+   letter-spacing: 0.25px;
+   transition: all 300ms;
+}
+
+#invitation div button:hover{
+    background-color:#12111a ;
+}
+
+#invitation div button:active{
+    background-color:#4D4A72 ;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    align-items: center;
+}
